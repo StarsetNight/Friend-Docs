@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 进入报社
-      link: /archives
+      link: /archives/
     - theme: alt
-      text: 加入我们
-      link: https://starset.top/index.php/archives/62/
+      text: 关于我们
+      link: /about
 
 features:
   - title: 多元团体

@@ -16,7 +16,7 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/picture/favicon.ico' }]
   ],
 
   themeConfig: {
@@ -29,18 +29,20 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '报社', link: '/archives/' },
-      { text: '加入我们', link: 'https://starset.top/index.php/archives/62/' },
+      { text: '关于', link: '/about' },
+      { text: '星夕小站', link: 'https://starset.top/' },
       
     ],
 
     sidebar:
       [
+        { text: '关于', link: '/about' },
         {
           text: '报社文章',
           link: "/archives/",
           collapsed: true,
           items: [
-            { text: "空空如也", link: "/" },
+            { text: "2024年6月15日", link: "/archives/20240615" },
           ]
         },
 
