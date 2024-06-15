@@ -1,0 +1,16 @@
+{
+  "name": "riniji-news",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "news:dev": "vitepress dev news",
+    "news:build": "vitepress build news",
+    "news:preview": "vitepress preview news"
+  },
+  "author": "HoshiyuuStarset",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "vitepress": "^1.2.2",
+    "vue": "^3.4.27"
+  }
+}

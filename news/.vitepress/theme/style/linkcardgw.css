@@ -1,0 +1,47 @@
+/* 官网链接卡片，没想好放哪 */
+
+/* 卡片背景 */
+.linkcardgw {
+    background-color: var(--vp-c-gw-soft);
+    border-radius: 8px;
+    padding: 8px 16px 8px 8px;
+    transition: color 0.5s, background-color 0.5s;
+  }
+  
+  /* 卡片鼠标悬停 */
+  .linkcardgw:hover {
+    background-color: var(--vp-c-bg-soft);
+  }
+  
+  /* 链接样式 */
+  .linkcardgw a {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* 描述链接文字 */
+  .linkcardgw .description {
+    flex: 1;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--vp-c-text-1);
+    margin: 0 0 0 16px;
+    transition: color 0.5s;
+  }
+  
+  /* 描述链接文字2 */
+  .linkcardgw .description span {
+    font-size: 14px;
+  }
+  
+  /* logo图片 */
+  .linkcardgw .logo img {
+    width: 80px;
+    object-fit: contain;
+  }
+  
+  /* 链接下划线去除 */
+  .vp-doc a {
+    text-decoration: none;
+  }
