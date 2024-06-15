@@ -53,7 +53,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/StarsetNight/Riniji-News/tree/main/:path',
+      pattern: 'https://github.com/StarsetNight/Riniji-News/tree/main/news/:path',
       text: '编辑'
     },
 
