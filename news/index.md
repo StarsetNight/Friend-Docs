@@ -7,7 +7,7 @@ hero:
   text: "一扇明亮的窗户"
   tagline: ~
   image: 
-    src: ./picture/RinijiPort.png
+    src: /RinijiPort.png
     alt: 背景图
   actions:
     - theme: brand

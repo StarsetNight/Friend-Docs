@@ -16,7 +16,7 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', href: '../picture/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
 
   themeConfig: {
