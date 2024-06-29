@@ -1,11 +1,11 @@
 {
-  "name": "riniji-news",
+  "name": "Friend-Docs",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "news:dev": "vitepress dev news",
-    "news:build": "vitepress build news",
-    "news:preview": "vitepress preview news"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "author": "HoshiyuuStarset",
   "devDependencies": {
