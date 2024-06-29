@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "璃虹港报社",
-  description: "璃虹港团体的媒体部门",
+  title: "Friend-友谊",
+  description: "良心的原版联机平台",
   lang: 'zh-CN',
   // cleanUrls: true,
   // metaChunk: true,
@@ -28,32 +28,30 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '报社', link: '/archives/' },
+      { text: '文档', link: '/archives/' },
       { text: '关于', link: '/about' },
-      { text: '星夕小站', link: 'https://starset.top/' },
-      
     ],
 
     sidebar:
       [
         { text: '关于', link: '/about' },
         {
-          text: '报社文章',
+          text: '暂无内容',
           link: "/archives/",
           collapsed: true,
           items: [
-            { text: "2024年6月15日", link: "/archives/20240615" },
+            { text: "啥都没有", link: "/" },
           ]
         },
 
       ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/StarsetNight/Riniji-News' }
+      { icon: 'github', link: 'https://github.com/StarsetNight/Friend-Docs' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/StarsetNight/Riniji-News/tree/main/news/:path',
+      pattern: 'https://github.com/StarsetNight/Friend-Docs/tree/main/news/:path',
       text: '编辑'
     },
 
