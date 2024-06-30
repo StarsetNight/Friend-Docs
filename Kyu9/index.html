@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ZXW-NUDT: 动态炫彩渐变背景</title>
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+
+            .gradient-background {
+                /* 设置渐变背景 */
+                background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+                /* 使背景全屏 */
+                height: 100%; 
+
+                /* 添加背景渐变动画 */
+                animation: gradientBG 15s ease infinite;
+                background-size: 300% 300%;
+            }
+
+            /* 定义背景渐变动画 */
+            @keyframes gradientBG {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+        </style>
+    </head>
+<body>
+<div class="gradient-background">
+<!-- 内容可以放这里 -->
+</div>
+</body>
+</html>
+
+
+
