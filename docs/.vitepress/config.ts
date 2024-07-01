@@ -55,6 +55,16 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '璃虹港', link: '/clubs/LHG' },
+            { text: '友谊之舟联盟', link: '/clubs/YYZZLM' },
+            { text: '秋茗茶庄', link: '/clubs/QMCZ' },
+            { text: '蘑菇岛', link: '/clubs/MGD' },
+            { text: '小樱花山', link: '/clubs/XYHS' },
+            { text: '苏维埃', link: '/clubs/SWA' },
+            { text: '墨鲸港', link: '/clubs/MJG' },
+            { text: '大秦', link: '/clubs/DQ' },
+            { text: '苍云阁', link: '/clubs/CYG' },
+            { text: '原神启动', link: '/clubs/YSQD' },
+            { text: '夏威夷海港镇', link: '/clubs/XWYHGZ' },
           ]
         },
 
