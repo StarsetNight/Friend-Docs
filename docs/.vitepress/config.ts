@@ -75,7 +75,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/StarsetNight/Friend-Docs/tree/main/news/:path',
+      pattern: 'https://github.com/StarsetNight/Friend-Docs/tree/main/docs/:path',
       text: '编辑'
     },
 
