@@ -28,19 +28,33 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/archives/' },
       { text: '关于', link: '/about' },
+      { text: '公约', link: '/rule' },
+      { text: '加入我们', link: '/join' }
     ],
 
     sidebar:
       [
-        { text: '关于', link: '/about' },
+        { text: '☀️服务器介绍', link: '/about' },
+        { text: '😆立即加入', link: '/join' },
+        { text: '📋玩家公约', link: '/rule' },
+        { text: '🤵玩家筛选', link: '/applicability' },
+        { text: '💵赞助支持', link: '/support' },
+        { text: '🖥️玩家功能用法', link: '/usage' },
         {
-          text: '暂无内容',
-          link: "/archives/",
+          text: '更新公告',
+          link: "",
           collapsed: true,
           items: [
-            { text: "啥都没有", link: "/" },
+            {},
+          ]
+        },
+        {
+          text: '社团列表',
+          link: "",
+          collapsed: true,
+          items: [
+            { text: '璃虹港', link: '/clubs/LHG' },
           ]
         },
 
