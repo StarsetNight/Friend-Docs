@@ -11,10 +11,10 @@ hero:
     alt: 背景图
   actions:
     - theme: brand
-      text: 进入文档
-      link: /archives/
+      text: 现在加入
+      link: /join
     - theme: alt
-      text: 关于我们
+      text: 进入文档
       link: /about
 
 features:
