@@ -8,7 +8,7 @@
 - **适用客户端版本**：`1.21.X`
 - **服务器QQ群**：[`517280511`](https://qm.qq.com/q/XYFus4mHQI "跳转至加入页面")
 - **友谊联合理事会QQ群**：[`677284812`](https://qm.qq.com/q/LoNJXgQVWe "跳转至加入页面")
-- **服务器管理服务QQ群**：[`456868666`]([https://qm.qq.com/q/LoNJXgQVWe](https://qm.qq.com/q/gdD6Jlj5Sw "跳转至加入页面")
+- **服务器管理服务QQ群**：[`456868666`](https://qm.qq.com/q/gdD6Jlj5Sw "跳转至加入页面")
 - **服务器链接**：
   1. 电信：`mcfriend.top`
   2. 联通：`lt.mcfriend.top`
