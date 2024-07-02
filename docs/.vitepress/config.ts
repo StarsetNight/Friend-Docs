@@ -65,6 +65,7 @@ export default defineConfig({
             { text: '苍云阁', link: '/clubs/CYG' },
             { text: '原神启动', link: '/clubs/YSQD' },
             { text: '夏威夷海港镇', link: '/clubs/XWYHGZ' },
+            { text: '饭社', link: '/clubs/FS' },
           ]
         },
 
