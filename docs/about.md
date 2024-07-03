@@ -2,6 +2,8 @@
 
 # Friend-友谊
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=1420770733&auto=1&height=32"></iframe>
+
 ## 性质介绍
 
 Friend 是一个**纯公益**性质的Minecraft服务器！
