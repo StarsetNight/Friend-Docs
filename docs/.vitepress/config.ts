@@ -46,7 +46,7 @@ export default defineConfig({
           link: "",
           collapsed: true,
           items: [
-            {},
+            { text: '【预告】2024年7月7日：1.21不删档测试更新前瞻', link: '/announcements/20240707_pre' },
           ]
         },
         {
