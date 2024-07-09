@@ -68,7 +68,14 @@ export default defineConfig({
             { text: '夏威夷海港镇', link: '/clubs/XWYHGZ' },
           ]
         },
-
+        {
+          text: "橙管公告",
+          link: "",
+          collapsed: true,
+          items:[
+            { text: "2024.7.9 处罚公示", link: "/punishments/2024.7.9.md" }
+          ]
+        }
       ],
 
     socialLinks: [
