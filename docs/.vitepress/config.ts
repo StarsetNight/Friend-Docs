@@ -52,11 +52,11 @@ export default defineConfig({
           ]
         },
         {
-          text: '橙管公',
+          text: '橙管公告',
           link: "",
           collapsed: true,
           items:[
-            { text: '2024.7.9 处罚公示', link: '/punishments/2024.7.9.md' }
+            { text: '2024.7.9 处罚公示', link: '/punishments/2024.7.9' }
           ]
         },
         {
