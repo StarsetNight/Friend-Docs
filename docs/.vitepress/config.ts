@@ -40,6 +40,7 @@ export default defineConfig({
         { text: '📋玩家公约', link: '/rule' },
         { text: '🤵玩家筛选', link: '/applicability' },
         { text: '💵赞助支持', link: '/support' },
+        { text: '🚫举报与管理员功能', link: '/management' },
         { text: '🖥️玩家功能用法', link: '/usage' },
         {
           text: '更新公告',
