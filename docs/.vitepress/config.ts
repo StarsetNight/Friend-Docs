@@ -52,6 +52,14 @@ export default defineConfig({
           ]
         },
         {
+          text: '橙管公',
+          link: "",
+          collapsed: true,
+          items:[
+            { text: '2024.7.9 处罚公示', link: '/punishments/2024.7.9.md' }
+          ]
+        },
+        {
           text: '社团列表',
           link: "",
           collapsed: true,
@@ -66,14 +74,6 @@ export default defineConfig({
             { text: '蘑菇岛', link: '/clubs/MGD' },
             { text: '墨鲸港', link: '/clubs/MJG' },
             { text: '夏威夷海港镇', link: '/clubs/XWYHGZ' },
-          ]
-        },
-        {
-          text: "橙管公告",
-          link: "",
-          collapsed: true,
-          items:[
-            { text: "2024.7.9 处罚公示", link: "/punishments/2024.7.9.md" }
           ]
         }
       ],
