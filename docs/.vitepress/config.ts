@@ -56,7 +56,7 @@ export default defineConfig({
           link: "",
           collapsed: true,
           items:[
-            { text: '2024.7.9 处罚公示', link: '/punishments/2024.7.9' }
+            { text: '2024.7.9 处罚公示', link: '/punishments/20240709' }
           ]
         },
         {
