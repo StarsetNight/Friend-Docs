@@ -38,6 +38,7 @@ export default defineConfig({
         { text: '☀️服务器介绍', link: '/about' },
         { text: '😆立即加入', link: '/join' },
         { text: '📋玩家公约', link: '/rule' },
+        { text: '📛附加严打条款', link: '/addition' },
         { text: '🤵玩家筛选', link: '/applicability' },
         { text: '💵赞助支持', link: '/support' },
         { text: '🚫举报与管理员功能', link: '/management' },
