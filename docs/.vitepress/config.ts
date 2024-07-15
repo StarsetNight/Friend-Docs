@@ -48,7 +48,7 @@ export default defineConfig({
           link: "",
           collapsed: true,
           items: [
-            { text: '【更新】2024年7月15日：Purpur核心测试', link: '/announcements/20240715_update' },
+            { text: '【更新】2024年7月15日：核心测试与酿酒', link: '/announcements/20240715_update' },
             { text: '【更新】2024年7月8日：1.21正式更新', link: '/announcements/20240708_update' },
             { text: '【预告】2024年7月7日：1.21不删档测试更新前瞻', link: '/announcements/20240707_pre' },
           ]
