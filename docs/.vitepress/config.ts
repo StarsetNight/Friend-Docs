@@ -76,7 +76,7 @@ export default defineConfig({
             { text: '大秦', link: '/clubs/DQ' },
             { text: '蘑菇岛', link: '/clubs/MGD' },
             { text: '墨鲸港', link: '/clubs/MJG' },
-            { text: '星社', link: '/clubs/SC' },
+            { text: '星社', link: '/clubs/XS' },
           ]
         }
       ],
