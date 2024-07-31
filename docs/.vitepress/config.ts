@@ -48,6 +48,7 @@ export default defineConfig({
           link: "",
           collapsed: true,
           items: [
+            { text: '【预告】2024年7月28日：非官方心理援助服务', link: '/announcements/20240728_pre' },
             { text: '【更新】2024年7月15日：核心测试与酿酒', link: '/announcements/20240715_update' },
             { text: '【更新】2024年7月8日：1.21正式更新', link: '/announcements/20240708_update' },
             { text: '【预告】2024年7月7日：1.21不删档测试更新前瞻', link: '/announcements/20240707_pre' },
@@ -73,11 +74,10 @@ export default defineConfig({
             { text: '秋茗茶庄', link: '/clubs/QMCZ' },
             { text: '小樱花山', link: '/clubs/XYHS' },
             { text: '苏维埃', link: '/clubs/SWA' },
-            { text: '饭社', link: '/clubs/FS' },
+            { text: '废墟图书馆', link: '/clubs/FXTSG' },
             { text: '大秦', link: '/clubs/DQ' },
             { text: '蘑菇岛', link: '/clubs/MGD' },
-            { text: '墨鲸港', link: '/clubs/MJG' },
-            { text: '星社', link: '/clubs/SC' },
+            { text: '星社', link: '/clubs/XS' },
           ]
         }
       ],
