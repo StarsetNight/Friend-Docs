@@ -63,7 +63,8 @@ export default defineConfig({
             { text: '2024.7.9 处罚公示', link: '/punishments/20240709' },
             { text: '2024.7.10 处罚公示', link: '/punishments/20240710' },
             { text: '2024.7.31 处罚公示', link: "/punishments/20240731" },
-            { text: '2024.11.21 处罚公示', link: "/punishments/20241121" }
+            { text: '2024.11.21 处罚公示', link: "/punishments/20241121" },
+            { text: '2025.6.8 处罚公示', link: "/punishments/20250608" }
           ]
         },
         {
