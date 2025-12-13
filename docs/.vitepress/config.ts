@@ -69,18 +69,25 @@ export default defineConfig({
         },
         {
           text: '社团列表',
-          link: "",
+          link: "/clubs/index",
           collapsed: true,
           items: [
-            { text: '璃虹港', link: '/clubs/LHG' },
-            { text: '友谊之舟联盟', link: '/clubs/YYZZLM' },
-            { text: '秋茗茶庄', link: '/clubs/QMCZ' },
-            { text: '小樱花山', link: '/clubs/XYHS' },
-            { text: '苏维埃', link: '/clubs/SWA' },
-            { text: '废墟图书馆', link: '/clubs/FXTSG' },
-            { text: '大秦', link: '/clubs/DQ' },
-            { text: '蘑菇岛', link: '/clubs/MGD' },
-            { text: '星社', link: '/clubs/XS' },
+            {
+              text: '历史社团',
+              link: "/clubs/history/index",
+              collapsed: true,
+              items: [
+                { text: '璃虹港', link: '/clubs/history/LHG' },
+                { text: '友谊之舟联盟', link: '/clubs/history/YYZZLM' },
+                { text: '秋茗茶庄', link: '/clubs/history/QMCZ' },
+                { text: '小樱花山', link: '/clubs/history/XYHS' },
+                { text: '苏维埃', link: '/clubs/history/SWA' },
+                { text: '废墟图书馆', link: '/clubs/history/FXTSG' },
+                { text: '大秦', link: '/clubs/history/DQ' },
+                { text: '蘑菇岛', link: '/clubs/history/MGD' },
+                { text: '星社', link: '/history/clubs/XS' },
+          ]
+        }
           ]
         }
       ],
