@@ -49,7 +49,7 @@ export default defineConfig({
           link: "",
           collapsed: true,
           items: [
-            { text: '【预告】2024年7月28日：非官方心理援助服务', link: '/announcements/20240728_pre' },
+            { text: '（失效）【预告】2024年7月28日：非官方心理援助服务', link: '/announcements/20240728_pre' },
             { text: '【更新】2024年7月15日：核心测试与酿酒', link: '/announcements/20240715_update' },
             { text: '【更新】2024年7月8日：1.21正式更新', link: '/announcements/20240708_update' },
             { text: '【预告】2024年7月7日：1.21不删档测试更新前瞻', link: '/announcements/20240707_pre' },
