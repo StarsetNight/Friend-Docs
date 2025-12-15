@@ -87,7 +87,7 @@ export default defineConfig({
                 { text: '废墟图书馆', link: '/clubs/history/FXTSG' },
                 { text: '大秦', link: '/clubs/history/DQ' },
                 { text: '蘑菇岛', link: '/clubs/history/MGD' },
-                { text: '星社', link: '/history/clubs/XS' },
+                { text: '星社', link: '/clubs/history/XS' },
           ]
         }
           ]
