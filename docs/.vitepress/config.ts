@@ -44,6 +44,7 @@ export default defineConfig({
         { text: '💵赞助支持', link: '/support' },
         { text: '🚫举报与管理员功能', link: '/management' },
         { text: '🖥️玩家功能用法', link: '/usage' },
+        { text: '⭐星级评定标准', link: '/rating' },
         {
           text: '更新公告',
           link: "",
