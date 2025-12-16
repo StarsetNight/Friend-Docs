@@ -1,13 +1,13 @@
 {
   "name": "Friend-Docs",
-  "version": "1.0.0",
+  "version": "2025.12.16",
   "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "author": "HoshiyuuStarset",
+  "author": "StarsetNight(Hoshiyuu Naganohara)",
   "devDependencies": {
     "@types/node": "^20.12.12",
     "vitepress": "^1.2.2",

@@ -27,4 +27,4 @@ features:
 
 footer:
   message: 'Powered by Friend-友谊'
-  copyright: 'Copyright © 2024 Friend Server'
+  copyright: 'Copyright © 2018-2026 Friend Server'
