@@ -2,8 +2,6 @@
 
 # Friend-友谊
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=1420770733&auto=1&height=32"></iframe>
-
 ## 服务器核心定位
 
 Friend-友谊是一款**纯公益、无盈利、支持离线登录**的Minecraft原版生存服务器，以“友谊联结，纯粹体验”为核心，为热爱MC的玩家打造公平、自由的联机空间。

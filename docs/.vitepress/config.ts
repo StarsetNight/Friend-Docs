@@ -46,27 +46,28 @@ export default defineConfig({
         { text: '🖥️玩家功能用法', link: '/usage' },
         { text: '⭐️星级评定标准', link: '/rating' },
         {
-          text: '更新公告',
+          text: '公告',
           link: "",
           collapsed: true,
           items: [
+            {
+              text: '处罚公告',
+              link: "",
+              collapsed: true,
+              items:[
+                { text: '2025.12.14 处罚公示', link: "/punishments/20251214" },
+                { text: '2025.6.8 处罚公示', link: "/punishments/20250608" },
+                { text: '2024.11.21 处罚公示', link: "/punishments/20241121" },
+                { text: '2024.7.31 处罚公示', link: "/punishments/20240731" },
+                { text: '2024.7.10 处罚公示', link: '/punishments/20240710' },
+                { text: '2024.7.9 处罚公示', link: '/punishments/20240709' },
+              ]
+            },
+            { text: '【反馈】2025年12月20日：2026周目预反馈Q&A', link: '/announcements/20251220_qa' },
             { text: '（失效）【预告】2024年7月28日：非官方心理援助服务', link: '/announcements/20240728_pre' },
             { text: '【更新】2024年7月15日：核心测试与酿酒', link: '/announcements/20240715_update' },
             { text: '【更新】2024年7月8日：1.21正式更新', link: '/announcements/20240708_update' },
             { text: '【预告】2024年7月7日：1.21不删档测试更新前瞻', link: '/announcements/20240707_pre' },
-          ]
-        },
-        {
-          text: '橙管公告',
-          link: "",
-          collapsed: true,
-          items:[
-            { text: '2024.7.9 处罚公示', link: '/punishments/20240709' },
-            { text: '2024.7.10 处罚公示', link: '/punishments/20240710' },
-            { text: '2024.7.31 处罚公示', link: "/punishments/20240731" },
-            { text: '2024.11.21 处罚公示', link: "/punishments/20241121" },
-            { text: '2025.6.8 处罚公示', link: "/punishments/20250608" },
-            { text: '2025.12.14 处罚公示', link: "/punishments/20251214" }
           ]
         },
         {
