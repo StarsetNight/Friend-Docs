@@ -54,6 +54,7 @@ export default defineConfig({
               link: "",
               collapsed: true,
               items:[
+                { text: '2025.12.27 处罚公示', link: "/punishments/20251227" },
                 {
                   text: '1.21周目',
                   link: "",
