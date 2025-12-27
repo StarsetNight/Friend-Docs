@@ -55,8 +55,20 @@ export default defineConfig({
               collapsed: true,
               items:[
                 { text: '2025.12.27 处罚公示', link: "/punishments/20251227" },
+              ]
+            },
+            { text: '【反馈】2025年12月20日：2026周目预反馈Q&A', link: '/announcements/20251220_qa' },
+            {
+              text: '1.21周目',
+              link: "",
+              collapsed: true,
+              items:[
+                { text: '（失效）【预告】2024年7月28日：非官方心理援助服务', link: '/announcements/1_21/20240728_pre' },
+                { text: '【更新】2024年7月15日：核心测试与酿酒', link: '/announcements/1_21/20240715_update' },
+                { text: '【更新】2024年7月8日：1.21正式更新', link: '/announcements/1_21/20240708_update' },
+                { text: '【预告】2024年7月7日：1.21不删档测试更新前瞻', link: '/announcements/1_21/20240707_pre' },
                 {
-                  text: '1.21周目',
+                  text: '处罚公告',
                   link: "",
                   collapsed: true,
                   items:[
@@ -70,18 +82,6 @@ export default defineConfig({
                 },
               ]
             },
-            {
-              text: '1.21周目',
-              link: "",
-              collapsed: true,
-              items:[
-                { text: '（失效）【预告】2024年7月28日：非官方心理援助服务', link: '/announcements/1_21/20240728_pre' },
-                { text: '【更新】2024年7月15日：核心测试与酿酒', link: '/announcements/1_21/20240715_update' },
-                { text: '【更新】2024年7月8日：1.21正式更新', link: '/announcements/1_21/20240708_update' },
-                { text: '【预告】2024年7月7日：1.21不删档测试更新前瞻', link: '/announcements/1_21/20240707_pre' },
-              ]
-            },
-            { text: '【反馈】2025年12月20日：2026周目预反馈Q&A', link: '/announcements/20251220_qa' },
           ]
         },
         {
