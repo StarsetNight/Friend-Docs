@@ -100,6 +100,7 @@ export default defineConfig({
                 { text: '大秦', link: '/clubs/history/DQ' },
                 { text: '蘑菇岛', link: '/clubs/history/MGD' },
                 { text: '星社', link: '/clubs/history/XS' },
+                { text: '云顶天宫', link: '/clubs/history/YDTG' },
               ]
             },
             { text: '璃虹港', link: '/clubs/LHG' },
@@ -107,6 +108,7 @@ export default defineConfig({
             { text: '废墟图书馆', link: '/clubs/FXTSG' },
             { text: '小樱花山', link: '/clubs/XYHS' },
             { text: '猫猫社', link: '/clubs/MMS' },
+            { text: '时越爱', link: '/clubs/SYA' },
           ]
         }
       ],
