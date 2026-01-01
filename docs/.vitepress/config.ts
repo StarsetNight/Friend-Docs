@@ -103,6 +103,7 @@ export default defineConfig({
               ]
             },
             { text: '璃虹港', link: '/clubs/LHG' },
+            { text: '暖仓', link: '/clubs/NC' },
             { text: '废墟图书馆', link: '/clubs/FXTSG' },
             { text: '小樱花山', link: '/clubs/XYHS' },
             { text: '猫猫社', link: '/clubs/MMS' },
