@@ -39,10 +39,6 @@ export default defineConfig({
         { text: '😆立即加入', link: '/join' },
         { text: '🖥️玩法手册', link: '/usage' },
         { text: '⭐️星级评定标准', link: '/rating' },
-        { text: '📋玩家公约', link: '/rule' },
-        { text: '🗃️社团规章', link: '/clubrule' },
-        { text: '📛附加严打条款', link: '/addition' },
-        { text: '🚫举报与管理员功能', link: '/management' },
         { text: '💵赞助支持', link: '/support' },
         {
           text: '公告',
@@ -101,14 +97,14 @@ export default defineConfig({
                 { text: '蘑菇岛', link: '/clubs/history/MGD' },
                 { text: '星社', link: '/clubs/history/XS' },
                 { text: '云顶天宫', link: '/clubs/history/YDTG' },
+                { text: '时越爱', link: '/clubs/history/SYA' },
               ]
             },
             { text: '璃虹港', link: '/clubs/LHG' },
-            { text: '暖仓', link: '/clubs/NC' },
             { text: '废墟图书馆', link: '/clubs/FXTSG' },
+            { text: '暖仓', link: '/clubs/NC' },
             { text: '小樱花山', link: '/clubs/XYHS' },
             { text: '猫猫社', link: '/clubs/MMS' },
-            { text: '时越爱', link: '/clubs/SYA' },
           ]
         }
       ],
