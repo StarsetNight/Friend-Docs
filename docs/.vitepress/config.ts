@@ -29,7 +29,6 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '关于', link: '/about' },
-      { text: '公约', link: '/rule' },
       { text: '加入我们', link: '/join' }
     ],
 
@@ -59,7 +58,6 @@ export default defineConfig({
               link: "",
               collapsed: true,
               items:[
-                { text: '（失效）【预告】2024年7月28日：非官方心理援助服务', link: '/announcements/1_21/20240728_pre' },
                 { text: '【更新】2024年7月15日：核心测试与酿酒', link: '/announcements/1_21/20240715_update' },
                 { text: '【更新】2024年7月8日：1.21正式更新', link: '/announcements/1_21/20240708_update' },
                 { text: '【预告】2024年7月7日：1.21不删档测试更新前瞻', link: '/announcements/1_21/20240707_pre' },
