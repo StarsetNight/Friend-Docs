@@ -38,7 +38,7 @@ export default defineConfig({
         { text: '😆立即加入', link: '/join' },
         { text: '🖥️玩法手册', link: '/usage' },
         { text: '⭐️星级评定标准', link: '/rating' },
-        { text: '💵赞助支持', link: '/support' },
+        { text: '💵赞助支持', link: '/donate' },
         {
           text: '公告',
           link: "",
