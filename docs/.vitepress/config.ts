@@ -36,6 +36,7 @@ export default defineConfig({
       [
         { text: '☀️服务器介绍', link: '/about' },
         { text: '😆立即加入', link: '/join' },
+        { text: '📖社区公约', link: '/rule' },
         { text: '🖥️玩法手册', link: '/usage' },
         { text: '⭐️星级评定标准', link: '/rating' },
         { text: '💵赞助支持', link: '/donate' },
