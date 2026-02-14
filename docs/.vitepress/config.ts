@@ -29,6 +29,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '关于', link: '/about' },
+      { text: '处罚公示', link: 'https://ban.mcfriend.top/' },
       { text: '加入我们', link: '/join' }
     ],
 
