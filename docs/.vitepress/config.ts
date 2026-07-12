@@ -51,10 +51,25 @@ export default defineConfig({
               link: "",
               collapsed: true,
               items:[
-                { text: '2025.12.27 处罚公示', link: "/punishments/20251227" },
+                {},
               ]
             },
-            { text: '【反馈】2025年12月20日：2026周目预反馈Q&A', link: '/announcements/20251220_qa' },
+            {
+              text: '1.21.10周目',
+              link: "",
+              collapsed: true,
+              items:[
+                { text: '【反馈】2025年12月20日：1.21.10周目预反馈Q&A', link: '/announcements/1_21_10/20251220_qa' },
+                {
+                  text: '处罚公告',
+                  link: "",
+                  collapsed: true,
+                  items:[
+                    { text: '2025.12.27 处罚公示', link: "/punishments/1_21_10/20251227" },
+                  ]
+                },
+              ]
+            },
             {
               text: '1.21周目',
               link: "",
@@ -90,6 +105,10 @@ export default defineConfig({
               link: "/clubs/history/index",
               collapsed: true,
               items: [
+                { text: '璃虹港', link: '/clubs/history/LHG' },
+                { text: '暖仓', link: '/clubs/history/NC' },
+                { text: '小樱花山', link: '/clubs/history/XYHS' },
+                { text: '猫猫社', link: '/clubs/history/MMS' },
                 { text: '友谊之舟联盟', link: '/clubs/history/YYZZLM' },
                 { text: '秋茗茶庄', link: '/clubs/history/QMCZ' },
                 { text: '苏维埃', link: '/clubs/history/SWA' },
@@ -100,11 +119,7 @@ export default defineConfig({
                 { text: '时越爱', link: '/clubs/history/SYA' },
               ]
             },
-            { text: '璃虹港', link: '/clubs/LHG' },
             { text: '废墟图书馆', link: '/clubs/FXTSG' },
-            { text: '暖仓', link: '/clubs/NC' },
-            { text: '小樱花山', link: '/clubs/XYHS' },
-            { text: '猫猫社', link: '/clubs/MMS' },
           ]
         }
       ],

@@ -1,6 +1,6 @@
 # 废墟图书馆
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2614175518&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2093260118&auto=1&height=66"></iframe>
 
 ![废墟图书馆](./picture/FXTSG.webp) 
 
@@ -50,6 +50,6 @@
 
 “最重要的，从来不是图书馆本身；最重要的，是组成图书馆的人。”
 
-——现任馆长 Fengyuan24（九州）
+——首任馆长 Fengyuan24（九州）
 
 **&copy; 2023-2026 废墟图书馆 版权所有**
