@@ -1,5 +1,8 @@
 # 星社
 
+> [!WARNING] 已被标记为劣迹社团
+> 经查实，本社团存在违反社区管理公约相关违规行为，经橙管组核查裁定，对本社团予以劣迹社团标记。后续不鼓励、不支持任何人创建性质、内容相近的同类社团，相关新建社团将从严审核处置。
+
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2034614727&auto=1&height=66"></iframe>
 
 >***“银河璀璨夜未央，星河长明照心房。”***

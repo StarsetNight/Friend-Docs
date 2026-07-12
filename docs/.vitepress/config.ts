@@ -111,7 +111,6 @@ export default defineConfig({
                 { text: '猫猫社', link: '/clubs/history/MMS' },
                 { text: '友谊之舟联盟', link: '/clubs/history/YYZZLM' },
                 { text: '秋茗茶庄', link: '/clubs/history/QMCZ' },
-                { text: '苏维埃', link: '/clubs/history/SWA' },
                 { text: '大秦', link: '/clubs/history/DQ' },
                 { text: '蘑菇岛', link: '/clubs/history/MGD' },
                 { text: '星社', link: '/clubs/history/XS' },
@@ -120,6 +119,8 @@ export default defineConfig({
               ]
             },
             { text: '废墟图书馆', link: '/clubs/FXTSG' },
+            { text: '苏维埃', link: '/clubs/SWA' },
+            { text: 'Z镇', link: '/clubs/ZZ' },
           ]
         }
       ],
