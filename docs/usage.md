@@ -125,4 +125,17 @@
 
 TODO
 
+### 快捷潜影盒
+安装[Quick Shulker](https://www.mcmod.cn/class/4322.html)MOD之后可以右键空气或在背包里右键以快速打开潜影盒以及一些工作方块   
+以下是支持的方块列表：
+ - 潜影盒
+ - 工作台
+ - 铁砧
+ - 切石机
+ - 末影箱
+
+### Servux
+服务器使用[ServuxFolia](https://github.com/njes9701/ServuxFolia)插件提供Servux协议支持  
+安装MiniHUD等mod后可以通过该协议使用容器预览村民交易显示等功能
+
 祝你在Friend友谊服务器玩得愉快！
