@@ -1,4 +1,4 @@
-![Friend友谊LOGO](/assets/Friend.png)
+![Friend友谊LOGO](/Friend.png)
 
 # Friend-友谊
 

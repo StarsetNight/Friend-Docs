@@ -8,7 +8,7 @@ hero:
   tagline: ~
   image: 
     src: /Friend.png
-    alt: 背景图
+    alt: Friend-友谊 服务器 LOGO
   actions:
     - theme: brand
       text: 现在加入

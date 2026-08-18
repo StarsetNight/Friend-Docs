@@ -1,12 +1,18 @@
+import { writeFileSync } from 'node:fs'
+import { resolve } from 'node:path'
 import { defineConfig } from 'vitepress'
+
+// 正式部署域名，用于 SEO / sitemap
+const site = 'https://doc.mcfriend.top'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Friend-友谊",
+  titleTemplate: 'Friend-友谊 | :title',
   description: "良心的原版联机平台",
   lang: 'zh-CN',
-  // cleanUrls: true,
-  // metaChunk: true,
+  cleanUrls: true,
+  metaChunk: true,
   lastUpdated: true,
   markdown: {
     image: {
@@ -16,13 +22,43 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // Open Graph / 社交分享
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'Friend-友谊' }],
+    ['meta', { property: 'og:title', content: 'Friend-友谊 — 良心的原版联机平台' }],
+    ['meta', { property: 'og:description', content: '良心的原版联机平台' }],
+    ['meta', { property: 'og:url', content: site }],
+    ['meta', { property: 'og:image', content: site + '/Friend.png' }],
+    // Twitter Card
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:title', content: 'Friend-友谊 — 良心的原版联机平台' }],
+    ['meta', { name: 'twitter:description', content: '良心的原版联机平台' }],
+    ['meta', { name: 'twitter:image', content: site + '/Friend.png' }],
   ],
 
   themeConfig: {
 
     search: {
       provider: 'local',
+      options: {
+        detailedView: true,
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档'
+          },
+          modal: {
+            noResultsText: '未找到相关结果',
+            resetButtonTitle: '清除查询条件',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换',
+              closeText: '关闭'
+            }
+          }
+        }
+      }
     },
 
     // https://vitepress.dev/reference/default-theme-config
@@ -46,14 +82,6 @@ export default defineConfig({
           link: "",
           collapsed: true,
           items: [
-            {
-              text: '处罚公告',
-              link: "",
-              collapsed: true,
-              items:[
-                {},
-              ]
-            },
             {
               text: '1.21.10周目',
               link: "",
@@ -131,7 +159,7 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/StarsetNight/Friend-Docs/tree/main/docs/:path',
-      text: '编辑'
+      text: '查看源代码'
     },
 
     docFooter: {
@@ -159,5 +187,27 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式'
+  },
+
+  // 构建结束后生成 sitemap.xml 与 robots.txt
+  buildEnd(siteConfig) {
+    const pages = [...new Set(
+      siteConfig.pages
+        .filter((p) => !/404\.(md|html)$/.test(p))
+        .map((p) => p.replace(/(^|\/)index\.md$/, '$1').replace(/\.md$/, '').replace(/\\/g, '/'))
+    )]
+    const urls = pages.map((p) => `${site}/${p.replace(/^\/+/, '')}`)
+
+    const sitemap =
+      `<?xml version="1.0" encoding="UTF-8"?>\n` +
+      `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+      urls.map((u) => `  <url><loc>${u}</loc></url>`).join('\n') +
+      `\n</urlset>\n`
+
+    writeFileSync(resolve(siteConfig.outDir, 'sitemap.xml'), sitemap)
+    writeFileSync(
+      resolve(siteConfig.outDir, 'robots.txt'),
+      `User-agent: *\nAllow: /\nSitemap: ${site}/sitemap.xml\n`
+    )
   }
 })

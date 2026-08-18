@@ -1,5 +1,5 @@
-import { h, watch } from 'vue'
-import { useData, EnhanceAppContext } from 'vitepress'
+import { watch } from 'vue'
+import { EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 
 import './style/index.css'
@@ -8,12 +8,7 @@ let homePageStyle: HTMLStyleElement | undefined
 
 export default {
   extends: DefaultTheme,
-  Layout: () => {
 
-    return h(DefaultTheme.Layout)
-
-  },
-  
   enhanceApp({ router }: EnhanceAppContext) {
     if (typeof window !== 'undefined') {
       watch(
