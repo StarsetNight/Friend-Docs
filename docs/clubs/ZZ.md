@@ -1,7 +1,5 @@
 # 欢迎你来Z镇！
 
-<p align="center"><img src="picture/zhaox.jpg" alt="照片" width="400"></p>
-
 ---
 
  ## • Z镇的简介
@@ -18,12 +16,7 @@
  
  **生电人员**<span style="color:#40f73d">**：IrkParrot，stay_in_lie，bla_g_ck**</span>
 
-![照片](picture/xcx.png) ![照片](picture/dykzy.png) ![照片](picture/slmnc.png)
-
  **建筑人员**<span style="color:#6f3df7">**：Maxvx，SoulKzzz，bla_g_ck**</span>
-
-![照片](picture/yhs.png) ![照片](picture/fc.png) ![照片](picture/ylzd.png)
-
 
  ## • Z镇的现状
 现在我们很缺人手，尤其是后勤，建筑，生电人员，当然如果你喜欢悠闲的游戏生活，当然也是欢迎的
